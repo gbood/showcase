@@ -1,7 +1,8 @@
 - name: QOTD reset all
   hosts: all
+  vars:
+    remote_port: 2223
   remote_user: itzuser
-  remote_port: 2223
 
   tasks: 
   - name: Reset all services to factory settings
