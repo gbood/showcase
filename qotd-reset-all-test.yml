@@ -1,6 +1,5 @@
 - name: QOTD reset all
   hosts: all
-  remote_user: itzuser
 
   tasks: 
   - name: Reset all services to factory settings
