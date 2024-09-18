@@ -7,6 +7,7 @@
     ansible.builtin.uri:
       url: http://qotd-usecase-qotd-load.itzroks-662002dawp-32ka3a-1ae633b7504858422983e172a3db3266-0000.us-south.containers.appdomain.cloud/reset
       method: POST
+      return_content: yes
       body_format: json
       headers:
         Content-Type: application/json
