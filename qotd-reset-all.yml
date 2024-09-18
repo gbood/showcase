@@ -11,5 +11,5 @@
       body_format: json
       headers:
         Content-Type: application/json
-      body: “{}”
+      body: {}
       status_code: 200
