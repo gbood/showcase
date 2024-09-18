@@ -1,7 +1,5 @@
 - name: QOTD reset all
   hosts: all
-  vars:
-    remote_port: 2223
   remote_user: itzuser
 
   tasks: 
