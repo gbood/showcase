@@ -4,7 +4,7 @@
   tasks: 
   - name: Reset all services to factory settings
     ansible.builtin.uri:
-      url: {{ reset }}
+      url: "{{ reset }}"
       method: POST
       return_content: yes
       body_format: json
